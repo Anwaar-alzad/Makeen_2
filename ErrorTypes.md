@@ -19,6 +19,8 @@ A **timeout error** occurs when a program or operation takes longer than expecte
 ### 🔹 Occurs when:
 - The task exceeds the allotted time limit (e.g., API request timeouts).
 - Inefficient algorithms, resource contention, or large data inputs cause delays.
+- resource contention: Resource contention happens when two or more programs, threads, or processes try to use the same resource at the same time, but the resource can't be shared easily — so they have to "fight" over it.
+Fight over CPU , Memory , Disk access, network bandwidth
 - A process is blocked due to synchronization issues, deadlocks, or unavailable resources.
 ### 📌 Example (python):
 ```python
